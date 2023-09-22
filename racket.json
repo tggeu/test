@@ -3,7 +3,7 @@
   "new_install_prompt_erase": true,
   "builds": [
     {
-      "chipFamily": "ESP32",
+      "chipFamily": "ESP32-S3",
       "parts": [
         { "path": "/bin/racket/boot_app0.bin", "offset": 57344 },
         { "path": "/bin/racket/racket_blink.ino.bin", "offset": 65536 },

@@ -3,7 +3,7 @@
   "new_install_prompt_erase": true,
   "builds": [
     {
-      "chipFamily": "ESP32",
+      "chipFamily": "ESP32-S3",
       "parts": [
         { "path": "/bin/birdier/boot_app0.bin", "offset": 57344 },
         { "path": "/bin/birdier/birdie_blink.ino.bin", "offset": 65536 },
