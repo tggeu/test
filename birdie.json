@@ -1,15 +1,15 @@
 {
   "name": "Lightminton birdie",
-  "new_install_prompt_erase": true,
+  "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "parts": [
-        { "path": "/bin/birdier/boot_app0.bin", "offset": 57344 },
-        { "path": "/bin/birdier/birdie_blink.ino.bin", "offset": 65536 },
-        { "path": "/bin/birdier/birdie_blink.ino.bootloader.bin", "offset": 0 },
+        { "path": "/bin/birdie/boot_app0.bin", "offset": 57344 },
+        { "path": "/bin/birdie/birdie_blink.ino.bin", "offset": 65536 },
+        { "path": "/bin/birdie/birdie_blink.ino.bootloader.bin", "offset": 0 },
         {
-          "path": "/bin/birdier/birdie_blink.ino.partitions.bin",
+          "path": "/bin/birdie/birdie_blink.ino.partitions.bin",
           "offset": 32768
         }
       ]
