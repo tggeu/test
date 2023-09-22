@@ -5,11 +5,11 @@
     {
       "chipFamily": "ESP32-S3",
       "parts": [
-        { "path": "/bin/birdie/boot_app0.bin", "offset": 57344 },
-        { "path": "/bin/birdie/birdie_blink.ino.bin", "offset": 65536 },
-        { "path": "/bin/birdie/birdie_blink.ino.bootloader.bin", "offset": 0 },
+        { "path": "boot_app0.bin", "offset": 57344 },
+        { "path": "birdie_blink.ino.bin", "offset": 65536 },
+        { "path": "birdie_blink.ino.bootloader.bin", "offset": 0 },
         {
-          "path": "/bin/birdie/birdie_blink.ino.partitions.bin",
+          "path": "birdie_blink.ino.partitions.bin",
           "offset": 32768
         }
       ]
